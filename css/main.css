@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.services {
+    font-size: 2rem;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* NAWIGACJA */
+
+nav {
+    font-size: 0;
+    height: 50px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 0px 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: color .3s;
+}
+
+nav li a:hover {
+    color: rgb(0,134,243);
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 260px;
+    background-image: url('/pierwsza_strona/img/night-5395836_1920.jpg');
+    background-position: 50%;
+    background-repeat: initial;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
+}
+
+.header-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 11, 11, 0.4);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+/* MAIN */
+
+main {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.about-us-heading {
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 40px;
+}
+
+.about-us-section {
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top {
+    background-image: url('../img/plane-841441_1920.jpg');
+}
+
+.middle {
+    background-image: url('../img/football-3471402_1920.jpg');
+}
+
+.bottom {
+    background-image: url('../img/young-boy-5397266_1920.jpg');
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.about-us-text h3 {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    height: 50%;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    color: rgb(212, 199, 199);
+    background-color: rgb(54, 54, 54);
+    line-height: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.foot-icon {
+    margin-left: 50px;
+}
+
+.foot-icon i {
+    padding: 0 5px;
+    color: rgb(212, 199, 199);
+    font-size: 20px;
+    transition: color .3s;
+}
+
+.foot-icon i:hover {
+    color: rgb(0,134,243);
+}
